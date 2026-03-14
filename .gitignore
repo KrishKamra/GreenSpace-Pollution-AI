@@ -1,0 +1,16 @@
+# --- Environment & Sensitive Data ---
+.env
+venv/
+ENV/
+
+# --- Python Build & Distribution ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
